@@ -23,6 +23,14 @@ Current setup:
 - System-assigned managed identity
 - East US region
 
+  ### Monitoring Stack
+- Prometheus for metrics collection
+- Grafana for visualization
+- 7-day retention period
+- Pre-configured dashboards
+
+[View monitoring documentation](docs/monitoring.md)
+
 ## 🚀 Deployment
 
 ### Prerequisites
