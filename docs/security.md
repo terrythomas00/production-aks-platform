@@ -5,7 +5,7 @@
 ### Default Deny-All
 A baseline policy that denies all ingress and egress traffic by default.
 ```bash
-kubectl get networkpolicy default-deny-all
+kubectl get networkpolicy deny-all
 ```
 
 ### Allow Frontend
