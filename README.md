@@ -21,7 +21,7 @@ This project showcases a complete Kubernetes platform on Azure with:
 
 ![Architecture Diagram](docs/images/aks_architecture_diagram.png)
 
-### Components
+## Components
 
 **Infrastructure:**
 - Azure Kubernetes Service (AKS)
