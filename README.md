@@ -107,7 +107,9 @@ kubectl port-forward -n monitoring svc/prometheus-grafana 3000:80
 
 Open http://localhost:3000 (admin/admin123)
 
-![Grafana Dashboard](docs/images/grafana-cluster-dashboard.png)
+![Grafana Dashboard](docs/images/grafana_cluster_dashboard_pic1.png)
+
+![Grafana Dashboard](docs/images/grafana_cluster_dashboard_pic2.png)
 
 [Monitoring Documentation](docs/monitoring.md)
 
@@ -129,27 +131,27 @@ Open http://localhost:3000 (admin/admin123)
 
 This project demonstrates:
 
-  **Infrastructure as Code**
+**Infrastructure as Code**
 - Terraform for cloud resource provisioning
 - Declarative infrastructure management
 - Version-controlled infrastructure
 
-   **Container Orchestration**
+**Container Orchestration**
 - Kubernetes cluster management
 - Multi-tier application deployment
 - Service discovery and load balancing
 
-  **Observability**
+**Observability**
 - Metrics collection with Prometheus
 - Visualization with Grafana
 - Production-ready monitoring
 
-  **Cloud Security**
+**Cloud Security**
 - Managed identities
 - Network isolation
 - Resource limits and quotas
 
-  **DevOps Practices**
+**DevOps Practices**
 - GitOps workflows
 - Documentation as code
 - Automation scripts
