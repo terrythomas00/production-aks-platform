@@ -30,20 +30,20 @@ Limits for the default namespace:
 
 ## Security Best Practices Implemented
 
-  **Network Segmentation**
+**Network Segmentation**
 - Default deny-all policy
 - Explicit allow rules for required traffic
 - Backend not accessible from internet
 
-  **Resource Limits**
+**Resource Limits**
 - All pods have resource requests and limits
 - Namespace quotas prevent resource exhaustion
 
-  **Managed Identity**
+**Managed Identity**
 - System-assigned managed identity (no service principals)
 - Automatic credential management
 
-  **RBAC**
+**RBAC**
 - Enabled by default on AKS
 - Kubernetes role-based access control
 
