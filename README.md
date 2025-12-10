@@ -1,6 +1,6 @@
 
 
-# Production-Ready AKS Platform
+# Production Ready AKS Platform
 
 A production-grade Azure Kubernetes Service cluster demonstrating modern DevOps practices, infrastructure as code, and cloud-native architecture.
 
