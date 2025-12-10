@@ -27,29 +27,29 @@ This project showcases a complete Kubernetes platform on Azure with:
 
 The cluster is fully operational with 2 worker nodes:
 
-![AKS Nodes](docs/images/kubectl-nodes.png)
+![AKS Nodes](docs/images/kubectl_shows_2_ready_nodes.png)
 
 ### Multi-Tier Application
 
 Frontend nginx application accessible via Azure LoadBalancer:
 
-![Frontend](docs/images/frontend-working.png)
+![Frontend](docs/images/frontend_working.png)
 
 All pods running across namespaces:
 
-![All Pods](docs/images/kubectl-pods.png)
+![All Pods](docs/images/all_namespaces.png)
 
 ### Monitoring Stack
 
 Comprehensive cluster observability with Grafana dashboards:
 
-![Grafana Dashboard](docs/images/grafana-dashboard.png)
+![Grafana Dashboard](docs/images/grafana_cluster_dashboard_pic1.png)
 
 ### Security Implementation
 
 Network policies enforcing traffic segmentation:
 
-![Network Policies](docs/images/network-policies.png)
+![Network Policies](docs/images/network_policies.png)
 
 ## Components
 
