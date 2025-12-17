@@ -134,8 +134,12 @@ Access Grafana dashboards:
 ```bash
 kubectl port-forward -n monitoring svc/prometheus-grafana 3000:80
 ```
+```bash
+# Get the Grafana admin password from the secret
+kubectl get secret -n monitoring prometheus-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+```
 
-Open http://localhost:3000 (admin/admin123)
+Open http://localhost:3000 (admin/password)
 
 ![Grafana Dashboard](docs/images/grafana_cluster_dashboard_pic1.png)
 
